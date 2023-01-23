@@ -1,5 +1,5 @@
 {
-  "name": "mouse",
+  "name": "mirror_mouse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,15 +7,18 @@
     "start": "electron .",
     "postinstall": "electron-rebuild"
   },
-  "author": "David Zorychta",
+  "author": "Lemon Labs",
   "license": "GNU",
   "dependencies": {
-    "electron": "^1.8.3",
-    "electron-rebuild": "^1.7.3",
+    "electron-rebuild": "^3.2.9",
     "import-export": "^1.0.1",
-    "keycode": "^2.1.9",
-    "minimist": "^1.2.0",
+    "keycode": "^2.2.1",
+    "minimist": "^1.2.7",
     "punt": "^2.3.0",
-    "robotjs": "^0.4.7"
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^3.2.10",
+    "electron": "^22.0.3"
   }
 }
